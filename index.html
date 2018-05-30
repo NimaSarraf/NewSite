@@ -4,22 +4,58 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="animate.css">
 </head>
 
 <body>
-  <div id="Home" class="container-fluid bg-1 text-center">
-    <div id="Intro">
-      <img src="pics/Nimaintro.png" class="img-responsive img-circle margin wow bounceInDown" style="display:inline" alt="face" width=50% height=50%>
+  <nav class="navbar navbar-expand-lg myNav">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse navbar.center navbar-inner" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="block-1">
+    <div class="container-fluid intro">
+      <img id="introPic" src="pics/Nimaintro.png" class="img-responsive wow bounceInDown" alt="face">
+      <div id="wrapper">
+        <a id="firstButton" href="#content" class="btn btn-default wow bounceInDown" role="button">Explore</a>
+      </div>
     </div>
   </div>
-  <h1> hi dsjlfhadslfdsalfhadslhfdsalfhaj</h1>
-  <h2> sjdkf;asjfk;asjfakj;</h2>
+  <div id="description">
+    <div class="container" <div class="panel panel-default">
+      <div class="panel-heading">
+        About me
+      </div>
+      <div class="panel-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor distinctio voluptas iusto libero voluptates ea neque recusandae in deleniti, nesciunt provident nisi adipisci porro. Enim eaque inventore totam molestiae praesentium.
+      </div>
+    </div>
+  </div>
+
   <!--Call to bootstrap JS files-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script>
     new WOW().init();
