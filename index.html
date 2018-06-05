@@ -14,71 +14,87 @@
 
   <div class="block-1">
     <div class="container-fluid intro">
-      <nav class="navbar navbar-default navbar-inverse transparent">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+      <div id=wrapper>
+        <nav class="navbar navbar-default myNav">
+          <div class="container-fluid navbar-inner">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#Home">
-              <img src="pics/nimalogo.png" width="40px" height="40px" alt="">
+              <a class="navbar-brand" href="#Home">
+              <img id='logo' src="pics/nimalogo.png" width="50px" height="40px" alt="">
             </a>
+            </div>
+            <div class="collapse navbar-collapse center" id="mainNavBar">
+              <ul class="nav navbar-nav">
+                <li><a class="current" href="#Home">Home</a></li>
+                <li><a href="#AboutMe">About me</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact Me</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="collapse navbar-collapse" id="mainNavBar">
-            <ul class="nav navbar-nav">
-              <li><a class="current" href="#Home">Home</a></li>
-              <li><a href="#AboutMe">About me</a></li>
-              <li><a href="#github">Github</a></li>
-              <li><a href="#linkedin">Linkedin</a></li>
-              <li><a href="#Contact">Contact Me</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
       <div class='parent'>
-      <img id='introBack' src="pics/city.png" class="img-responsive wow bounceInDown image1" alt="face">
-      <img id='introPic' src="pics/Nimadog2.png" class="img-responsive wow bounceInDown image2" data-wow-delay="1.2s" alt="face">
-    </div>
-      <div id="wrapper">
-        <a id="firstButton" href="#content" class="btn btn-default wow bounceInDown" role="button">Explore</a>
+        <img id='introPic' src="pics/Nimaintro3.png" class="img-responsive wow bounceInDown image2" alt="face">
       </div>
     </div>
   </div>
-  <!-- <main>
-    <section id="skills" class="toad-fullscreen">
-      <article class="skills">
-        <div class="t-6">
-          <p>HTML5<span></span><span class="skills"></span></p>
+  <!-- <div id="wrapper">
+        <a id="firstButton" href="#content" class="btn btn-default wow bounceInDown" role="button">Explore</a>
+      </div> -->
+  </div>
+  </div>
+  <div class="block2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2">
         </div>
-        <div class="t-6">
-          <p>CSS3<span></span><span class="skills"></span></p>
+        <div class="col-sm-4 col-lg-2">
+          <h2>About me</h2>
+          <p>
+            I’m currently a computer science student who has a passion to learn new tech. I work as a student web developer and have been learning to work in a team on complex web applications. I hope to expand my knowledge of web development by finding more internships
+            opportunities before I graduate from my university.
+          </p>
         </div>
-
-        <div class="t-6">
-          <p>JavaScript<span></span><span class="skills"></span></p>
+        <div class="col-sm-4 col-lg-4">
+          <img id="portrait" src="pics/NimaPortrait2.png" class="img-responsive">
         </div>
-        <div class="t-6">
-          <p>Java<span></span><span class="skills"></span></p>
+        <div class="col-sm-4 col-lg-2 ">
+          <h2>Details</h2>
+          <h1>
+            Name:
+          </h1>
+          <p>
+            Nima Sarrafzadeh
+          </p>
+          <h1>
+            University:
+          </h1>
+          <p>
+            Sacramento State
+          </p>
+          <h1>
+            Graduation Date:
+          </h1>
+          <p>
+            December 2018
+          </p>
+          <h1>
+            University:
+          </h1>
+          <p>
+            Sacramento State
+          </p>
         </div>
-
-        <div class="t-6">
-          <p>MySQL<span></span><span class="skills"></span></p>
+        <div class="col-lg-2">
         </div>
-        <div class="t-6">
-          <p>React<span></span><span class="skills"></span></p>
-        </div>
-
-        <div class="t-6">
-          <p>Sketch<span></span><span class="skills"></span></p>
-        </div>
-        <div class="t-6">
-          <p>Affinity Design<span></span><span class="skills"></span></p>
-        </div>
-      </article>
-    </section>
-  </main> -->
+      </div>
+    </div>
+  </div>
 
   <!--Call to bootstrap JS files-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
