@@ -1,62 +1,74 @@
-.intro {
-  background-color: #CEF9FF;
-  /* margin-left: auto;
-  margin-right: auto; */
-  background-size: contain;
-  height: 100vh;
-  /* max-width: none; */
+
+
+.block-1{
+  background: #B0FAFF;
 }
 
-body {
-  padding: 0px;
+.block-2 {
+  background: #DF6C6C;
+}
+
+.block-3{
+  background: #5CA494;
 }
 
 #introPic {
   vertical-align: middle;
-  margin: auto;
-  max-width: 65%;
-  /* or to whatever you want here */
-  max-height: auto;
-  /* or to whatever you want here */
-  position: absolute;
+  max-width: 85%;
+}
+.BG1{
+  positon: relative;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
 
-.block2 {
-  padding-top: 10em;
-  padding-bottom: 10em;
+.wrapper{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
+.rectangle {
+  height: 400px;
+  width: 300px;
+  background-color: #555;
+  border: 2px black;
+  position: absolute;
+
+}
+
+
+
 #portrait {
+
   margin: auto;
   max-width: 60%;
   max-height: auto;
-  display: center;
-  text-align: center;
+
+
 }
 
 h2 {
-  color: #4E4B5D;
+  color: black;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 2.5em;
   padding: 3px;
 }
 
 h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 p {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   padding-right: 10px;
   padding-left: 10px;
+  color: white;
 }
 
 /* #introBack {
@@ -79,22 +91,35 @@ text-align: center;
   left: 47%;
 }
 
-.navbar-nav {
-  width: 100%;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  padding: 10px;
+  border-bottom: 4px solid black;
+}
+
+.navbar .navbar-collapse {
   text-align: center;
-  >li {
-    float: none;
-    display: inline-block;
-  }
 }
 
 .navbar-default {
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: bold;
   color: black;
   background-color: transparent;
   border: none;
   z-index: 9999;
   width: 100%;
   list-style-type: none;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-nav > li{
+  padding-left:40px;
+  padding-right:40px;
 }
