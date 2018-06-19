@@ -1,16 +1,20 @@
 
 
-.block-1{
+#block-1{
 background-image: linear-gradient(-180deg, #FD8888 0%, #C6C6C6 81%);
 }
 
-.block-2 {
+#block-2 {
   padding-bottom: 50px;
 }
 
-.block-3{
+#block-3{
   /* Rectangle 2: */
 background-image: linear-gradient(-180deg, #6190D0 0%, #BDBDBD 100%);
+
+}
+
+#block-4{
 
 }
 
@@ -19,6 +23,10 @@ background-image: linear-gradient(-180deg, #6190D0 0%, #BDBDBD 100%);
   max-width: 85%;
 }
 
+#contactlinks{
+background-color: linear-gradient(-180deg, #31BC9E 0%, #A9A9A9 100%);
+vertical-align: center;
+}
 
 .wrapper{
   margin-top: 50px;
@@ -34,7 +42,9 @@ background-image: linear-gradient(-180deg, #6190D0 0%, #BDBDBD 100%);
 
 }
 
-
+a{
+  color: black;
+}
 
 #portrait {
 
